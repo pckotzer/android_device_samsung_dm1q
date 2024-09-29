@@ -12,7 +12,7 @@ DEVICE_PATH := device/samsung/dm1q
 TARGET_OTA_ASSERT_DEVICE := dm1q
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 384
 
 # Kernel
 TARGET_KERNEL_CONFIG := dm1q_defconfig
