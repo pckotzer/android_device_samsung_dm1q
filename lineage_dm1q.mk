@@ -14,6 +14,11 @@ $(call inherit-product, device/samsung/dm1q/device.mk)
 # Inherit from the Lineage configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Crdroid
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_BLUR := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_NAME := lineage_dm1q
 PRODUCT_DEVICE := dm1q
 PRODUCT_BRAND := Samsung
